@@ -10,3 +10,16 @@ IMPORTANCE OF PRIVATE FOLDERS
   2. HAVING A CONSISTENT WAY TO ORGANIZE INTERNAL FILES IN YOUR PROJECT
   3. MAKING ITEASIER TO GROUP RELATED FILES IN YOUR CODE EDITOR
   4. AVOID POTENTIAL NAMING CONFLICTS WITH FUTURE NEXTJS FILE NAMING CONVENTIONS
+
+ROUTE GROUPS
+
+lets us logically organize our routes and projects files without impacting the URL structure
+
+Lets build three routes 
+    1.regitration
+    2.login
+    3.forgot password
+
+Instead of having this individual routes you can have one folder to house all related routes e.g Auth
+
+To create a route group you wrap the folder name in parenthesis
